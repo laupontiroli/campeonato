@@ -48,7 +48,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ezambomsantana/campeonato-ci:${{ github.sha }}  #pega o hash do commit
+        tags: laupontiroli/campeonato-ci:${{ github.sha }}  #pega o hash do commit
 
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
